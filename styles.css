@@ -1,0 +1,143 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #DAA520;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Navigation Styles */
+nav {
+  text-align: center;
+  margin: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Section Styles */
+section {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Certificate Styles */
+#certificates .certificate-link {
+  display: block;
+  margin-top: 10px;
+  color: #3498db;
+}
+
+/* About Me Styles */
+#about p {
+  line-height: 1.6;
+}
+
+/* Contact Styles */
+#contact p {
+  line-height: 1.6;
+}
+
+/* Resume Styles */
+#resume p {
+  line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
+
+.badge {
+  background-color: #DAA520;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+a {
+  color: #3498db; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+a:hover {
+  color: #e74c3c;
+}
+
+a:visited {
+  color: #9b59b6;
+}
+
+/* Additional Link Styles */
+.nav-link:hover {
+  color: #e74c3c;
+}
+
+span:hover{
+ bg-color:red;
+}
+h3:hover{
+bg-color:red;
+}
